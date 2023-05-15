@@ -1,0 +1,105 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: purple;
+    padding: 10px;
+    background-image: url('https://img.freepik.com/free-vector/abstract-technology-particle-background_23-2148319502.jpg?w=1380&t=st=1684127651~exp=1684128251~hmac=aca37b55287203da529cfa9bcb7b097b0b8915cdba42e3987cfb416f207e549b');
+    background-size: cover;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar_list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .navbar_list li a {
+    color: pink;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .navbar_list li a:hover {
+    background-color: pink;
+    color: purple;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container h1 {
+    color: purple;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .container p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Team Profile styles */
+  .team_profile {
+    background-color: pink;
+    padding: 20px;
+    color: purple;
+  }
+  
+  .team_profile .heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team_profile .heading h3 {
+    font-size: 24px;
+  }
+  
+  .team_profile .heading h5 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .team_profile .box {
+    margin-bottom: 20px;
+  }
+  
+  .team_profile .box h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .team_profile .box h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .team_profile .box p {
+    margin-bottom: 10px;
+  }
+  
